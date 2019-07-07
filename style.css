@@ -1,0 +1,63 @@
+.background{
+   background-color: #330021;
+background-size: cover;
+height: 456px;
+padding-top: 136px;
+
+
+
+
+}
+
+.loginedpage{
+    background-color:  #137b7b;
+    background-size: cover;
+    height: 592px;
+    padding: 25px;
+
+}
+
+.login{
+    background-color: #137b7b;
+    display: flex;
+    justify-content: center;
+    padding: 57px;
+    border-radius: 29px;
+    margin: 0 auto;
+    width: 20%;
+}
+input{
+    display: block;
+    margin: 8px;
+    height: 8%;
+    margin-left: -1%;
+    border-radius: 3px
+}
+
+label{
+    color: #e6f5e6;
+
+}
+
+.label{
+    color: red;
+}
+ .label::after{
+     content: "*"
+ }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .btndelete{
+      background-color: red
+  }
